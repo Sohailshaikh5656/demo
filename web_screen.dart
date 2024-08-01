@@ -32,3 +32,10 @@ class _WebViewScreenState extends State<WebViewScreen> {
     );
   }
 }
+
+
+//yaml
+ // line no : 39: webview_flutter: 4.2.2
+//build.gradle
+//line no 51 : minSdkVersion 21
+              //targetSdkVersion 34
