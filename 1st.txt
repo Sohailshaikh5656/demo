@@ -1,0 +1,72 @@
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
+
+    <div class="mt-auto ms-10 mb-1 text-light text-white">
+    
+    <div class="row m-1">
+        <div class="col-2">
+            <asp:Label ID="lblId" runat="server" Text="ID" CssClass="form-label fs-4" />
+        </div>
+        <div class="col-6">
+            <asp:TextBox ID="txtID" runat="server" CssClass="form-control" style="display:inline; float:left"/>
+        </div>
+        <div class="col-3 m-2">
+            <asp:Label runat="server" ID="lblInfo"/>
+            
+        </div>
+    </div>
+
+        <div class="row m-1">
+            <div class="col-2">
+                <asp:Label ID="lblName" runat="server" Text="Name" CssClass="form-label fs-4" />
+            </div>
+            <div class="col-6">
+                <asp:TextBox ID="txtName" runat="server" CssClass="form-control" style="display:inline; float:left"/>
+            </div>
+            <div class="col-3 m-2">
+                <asp:Label runat="server" ID="lblNameInfo"/>
+        
+            </div>
+        </div>
+
+        <div class="row m-1">
+            <div class="col-2">
+                <asp:Label ID="lblAge" runat="server" Text="Age" CssClass="form-label fs-4" />
+            </div>
+            <div class="col-6">
+                <asp:TextBox ID="txtAge" runat="server" CssClass="form-control" style="display:inline; float:left"/>
+            </div>
+            <div class="col-3 m-2">
+                <asp:Label runat="server" ID="lblAgeInfo"/>
+        
+            </div>
+        </div>
+
+            <div class="row m-1">
+                <div class="col-2">
+                    <asp:Label ID="lblSalary" runat="server" Text="Salary" CssClass="form-label fs-4" />
+                </div>
+                <div class="col-6">
+                    <asp:TextBox ID="txtSalary" runat="server" CssClass="form-control" style="display:inline; float:left"/>
+                </div>
+                <div class="col-3 m-2">
+                    <asp:Label runat="server" ID="lblSalaryInfo"/>
+        
+                </div>
+            </div>
+            
+        
+            <div class="row m-1">
+                <div class="col-2">
+                    
+                </div>
+                <div class="col-6">
+                    <asp:Button runat="server" Text="submit" CssClass="btn btn-success btn-outline-warning" style="display:inline; float:left"/>
+                </div>
+                <div class="col-3 m-2">
+                    <asp:Label runat="server" ID="Label2"/>
+        
+                </div>
+            </div>
+
+    </div>
+</asp:Content>
