@@ -1,0 +1,6 @@
+private int _id { get; set; }
+private string _name { get; set; }
+private int _age { get; set; }
+private float _salary { get; set; }
+private float _bonous { get; set; }
+Employee() { }
